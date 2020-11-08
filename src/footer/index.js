@@ -25,6 +25,10 @@ function Footer() {
         linkURL = stackOverFlowURL;
         break;
       }
+      default: {
+        linkURL = stackOverFlowURL;
+        break;
+      }
     }
     window.open(linkURL, "_blank");
   };

@@ -70,7 +70,7 @@ function MainContainer() {
             LET'S CHAT!
           </button>
         </div>
-        <img src={mainImage} height="700" width="700" />
+        <img src={mainImage} height="700" width="700" alt="Main Image SVG" />
       </div>
     </div>
   );
