@@ -26,6 +26,10 @@ function MainContainer() {
         linkURL = stackOverFlowURL;
         break;
       }
+      default: {
+        linkURL = stackOverFlowURL;
+        break;
+      }
     }
     window.open(linkURL, "_blank");
   };
@@ -70,7 +74,7 @@ function MainContainer() {
             LET'S CHAT!
           </button>
         </div>
-        <img src={mainImage} height="700" width="700" alt="Main Image SVG" />
+        <img src={mainImage} height="700" width="700" alt="Main SVG" />
       </div>
     </div>
   );

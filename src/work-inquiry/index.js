@@ -10,12 +10,7 @@ function WorkInquiry() {
   };
   return (
     <div className="work-inquiry-container">
-      <img
-        src={workInquiry}
-        height="200"
-        width="200"
-        alt="Work Inquiry Image"
-      />
+      <img src={workInquiry} height="200" width="200" alt="Work Inquiry" />
       <div className="work-inquiry-details-container">
         <div className="work-inquiry-details-text">
           <span className="work-inquiry-main-heading">Work Inquiry</span>
