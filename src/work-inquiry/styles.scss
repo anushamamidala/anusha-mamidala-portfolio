@@ -1,0 +1,43 @@
+.work-inquiry-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 50px;
+  img {
+    margin-bottom: -10px;
+  }
+  .work-inquiry-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    background-color: #faf1f4;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #0000001f;
+    .work-inquiry-details-text {
+      display: flex;
+      flex-direction: column;
+      .work-inquiry-main-heading {
+        font-weight: bold;
+        font-size: x-large;
+        margin-bottom: 4px;
+      }
+      .work-inquiry-tagline {
+        color: #a4a1a2;
+      }
+    }
+    button {
+      background-color: #ee5941;
+      color: white;
+      border-radius: 8px;
+      box-shadow: 3px 3px 3px 3px #0000001f;
+      border: none;
+      height: 50px;
+      padding: 15px 25px;
+      font-weight: bold;
+    }
+  }
+}

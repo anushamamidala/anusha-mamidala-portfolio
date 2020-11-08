@@ -1,0 +1,31 @@
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  .header-basic-info {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    .header-name-logo {
+      font-family: "Kalam", cursive;
+      font-size: xx-large;
+      cursor: pointer;
+    }
+    .header-job-title {
+      color: #bfbfbf;
+    }
+    .header-contact-info {
+      font-weight: bold;
+      font-variant-caps: all-petite-caps;
+      cursor: pointer;
+    }
+  }
+  .header-basic-ham-menu {
+    margin-right: 20px;
+    font-size: x-large;
+    cursor: pointer;
+  }
+}

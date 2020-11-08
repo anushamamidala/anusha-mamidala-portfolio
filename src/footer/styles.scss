@@ -1,0 +1,113 @@
+.footer-container {
+  margin: 0 auto;
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    .footer-contact-info-heading {
+      font-weight: bold;
+      font-size: x-large;
+      margin-bottom: 20px;
+    }
+    .footer-contact-info-place {
+      color: #a4a1a2;
+      margin-bottom: 5px;
+    }
+    .footer-contact-info-email {
+      font-size: x-large;
+      margin-bottom: 10px;
+    }
+    .footer-contact-info-phone {
+      color: #353535;
+    }
+  }
+  .footer-social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    .footer-social-media-icon {
+      width: 30px;
+      height: 30px;
+    }
+    .blue-bg {
+      background-color: #eff4fa;
+    }
+    .violet-bg {
+      background-color: #f3eefb;
+    }
+    .pink-bg {
+      background-color: #faf1f4;
+    }
+    .footer-social-media-bg {
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .linkedin-icon {
+        color: #145fe3;
+      }
+      .github-icon {
+        color: #9321d8;
+      }
+      .stackoverflow-icon {
+        color: #f379a6;
+      }
+    }
+  }
+  .footer-bottom-nav {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .footer-name-logo {
+      margin-left: 20px;
+      font-family: "Kalam", cursive;
+      font-size: xx-large;
+      cursor: pointer;
+      width: 25%;
+    }
+    .footer-nav-bar {
+      display: flex;
+      justify-content: space-around;
+      width: 50%;
+      span {
+        font-size: small;
+        color: #bfbfbf;
+      }
+    }
+    .footer-rights {
+      margin-right: 20px;
+    }
+  }
+  .footer-bottom-colors {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    height: 10px;
+    .footer-first-color {
+      width: 25%;
+      background-color: #ed5b42;
+    }
+    .footer-second-color {
+      width: 25%;
+      background-color: #f4aa85;
+    }
+    .footer-third-color {
+      width: 25%;
+      background-color: #c3dae0;
+    }
+    .footer-fourth-color {
+      width: 25%;
+      background-color: #414247;
+    }
+  }
+}
